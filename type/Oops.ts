@@ -53,3 +53,37 @@ console.log("Circle Area:", circle.area()); // 78.5
 
 
 
+
+// Inheritance
+
+
+class Person {
+  constructor(public name: string, public age: number) {}
+
+  greet(): void {
+    console.log(`Hello, my name is ${this.name}`);
+  }
+}
+
+class Student extends Person {
+  
+  constructor(name: string, age: number, public rollNo: number) {
+  
+    super(name, age); 
+  }
+
+  study(): void {
+    
+    console.log(`${this.name} is studying`);
+
+    
+  }
+}
+
+const student = new Student("Abdul", 21, 101);
+
+student.greet();
+// Hello, my name is Abdul
+student.study(); // Abdul is studying
+
+
