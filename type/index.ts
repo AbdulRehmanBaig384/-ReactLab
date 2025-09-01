@@ -25,17 +25,17 @@ model:string,
 
 }
 
-// function information(p:car):string{
-//   return `HI ${p.name} and model of your car is ${p.model}`
-// }
+function information(p:car):string{
+  return `HI ${p.name} and model of your car is ${p.model}`
+}
 
-// let data=information({name:'Toyota GrandX',model:'@#X1'})
-// console.log(data)
+let data=information({name:'Toyota GrandX',model:'@#X1'})
+console.log(data)
 
-// // let value:string |number;
-// // value=23;
-// // value='bilal'
-// // console.log(value)
+let value:string |number;
+value=23;
+value='bilal'
+console.log(value)
 
 
 
@@ -112,6 +112,7 @@ model:string,
 
 
 // assertions
+
 
 
 
