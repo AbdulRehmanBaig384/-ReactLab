@@ -82,36 +82,37 @@ let b1=new edc('abdulrehan')
 b1.getvalue()
 
 
-// function sum(...arr:number[])
-// {
+function sum(...arr:number[])
+{
   
-// }
+}
 
-// sum(1,2,3,4,5,6,7,8,9)
-
-
+sum(1,2,3,4,5,6,7,8,9)
 
 
 
 
 
-// function arr<t>(a:t){
-//  console.log(a)
-// }
-// arr<string>('hello')
-// arr<number>(12)
 
 
-// class abc<t>{
-//     constructor(public key:t){}
-// }
-// let b1= new abc<string>('hello You are the handsome boy i have ever seen in my life')
-// let b2= new abc<number>(23)
-// console.log(b1)
-// console.log(b2)
+function arr<t>(a:t){
+ console.log(a)
+}
+arr<string>('hello')
+arr<number>(12)
+
+
+class abc<t>{
+    constructor(public key:t){}
+}
+let b1= new abc<string>('hello You are the handsome boy i have ever seen in my life')
+let b2= new abc<number>(23)
+console.log(b1)
+console.log(b2)
 
 
 // assertions
+
 
 
 
