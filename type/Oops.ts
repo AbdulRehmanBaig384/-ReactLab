@@ -98,18 +98,23 @@ student.study(); // Abdul is studying
 }
 
 class Dog extends Animal {
+
   speak(): void {
+  
     console.log("Dog barks");
   }
 }
 
 class Cat extends Animal {
+  
   speak(): void {
+  
     console.log("Cat meows");
   }
 }
 
 const animals: Animal[] = [new Dog(), new Cat()];
+
 animals.forEach(animal => animal.speak());
 // Dog barks
 // Cat meows
