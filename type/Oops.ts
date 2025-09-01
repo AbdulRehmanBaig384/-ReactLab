@@ -5,7 +5,7 @@ class BankAccount {
     this.balance = initialBalance;
   }
 
-  // public method to access private data safely
+  
   public deposit(amount: number): void {
     if (amount > 0) {
       this.balance += amount;
