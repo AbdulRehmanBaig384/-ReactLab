@@ -8,10 +8,10 @@
     return `Hello ${username} and you  are ${age} old`; 
  }
 
-// // let data:string=greet(names,age);
-// // console.log(data)
-// // let scores:number[]=[10,20,30,40]
-// // console.log(scores)
+let data:string=greet(names,age);
+console.log(data)
+let scores:number[]=[10,20,30,40]
+console.log(scores)
 
  let value:string |number;
  value=23;
@@ -19,11 +19,11 @@
  console.log(value)
 
 
-// type car={
-// name:string,
-// model:string,
+type car={
+name:string,
+model:string,
 
-// }
+}
 
 // function information(p:car):string{
 //   return `HI ${p.name} and model of your car is ${p.model}`
@@ -112,5 +112,6 @@
 
 
 // assertions
+
 
 
