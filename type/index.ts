@@ -2,22 +2,21 @@
  let names:string="Abdul Rehman";
  let age=22;
 
-// import { number } from "motion"
+ import { number } from "motion"
 
-// // function greet(username:string,age:Number):any{
-// //     return `Hello ${username} and you  are ${age} old`; 
-// // }
+ function greet(username:string,age:Number):any{
+    return `Hello ${username} and you  are ${age} old`; 
+ }
 
 // // let data:string=greet(names,age);
 // // console.log(data)
 // // let scores:number[]=[10,20,30,40]
 // // console.log(scores)
 
-
-// // let value:string |number;
-// // value=23;
-// // value='bilal'
-// // console.log(value)
+ let value:string |number;
+ value=23;
+ value='bilal'
+ console.log(value)
 
 
 // type car={
@@ -113,4 +112,5 @@
 
 
 // assertions
+
 
