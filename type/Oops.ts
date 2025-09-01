@@ -87,3 +87,31 @@ student.greet();
 student.study(); // Abdul is studying
 
 
+// Polymorphism
+
+ class Animal {
+   
+  speak(): void {
+    
+    console.log("Animal makes a sound");
+  }
+}
+
+class Dog extends Animal {
+  speak(): void {
+    console.log("Dog barks");
+  }
+}
+
+class Cat extends Animal {
+  speak(): void {
+    console.log("Cat meows");
+  }
+}
+
+const animals: Animal[] = [new Dog(), new Cat()];
+animals.forEach(animal => animal.speak());
+// Dog barks
+// Cat meows
+
+
