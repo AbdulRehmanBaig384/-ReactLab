@@ -1,6 +1,6 @@
-// // // console.log('Hello World',String)
-// // let names:string="Abdul Rehman";
-// // let age=22;
+ console.log('Hello World',String)
+ let names:string="Abdul Rehman";
+ let age=22;
 
 // import { number } from "motion"
 
@@ -113,3 +113,4 @@
 
 
 // assertions
+
