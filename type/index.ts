@@ -40,46 +40,46 @@ console.log(value)
 
 
 
-// let num1:number[]=[1,2,3,4]
+let num1:number[]=[1,2,3,4]
 
-// interface user{
-//   name:string,
-//   age:number,
-//   gender?:string
-// }
+interface user{
+  name:string,
+  age:number,
+  gender?:string
+}
 
-// function info(obj:user){
-//   obj.age=12
-// }
-
-
+function info(obj:user){
+  obj.age=12
+}
 
 
 
 
 
-// class device{
-//   constructor(public name:string, public age:number){
-//          console.log(`hello ${name} and your age is ${age}`)}
-// }
-// let d1=new device("ali",31);
+
+
+class device{
+  constructor(public name:string, public age:number){
+         console.log(`hello ${name} and your age is ${age}`)}
+}
+let d1=new device("ali",31);
 
 
 
-// class abc{
-//   constructor(public name:string){}
-// }
+class abc{
+  constructor(public name:string){}
+}
 
-// class edc extends abc{
-//   constructor( name:string){
-//     super(name)
-//   }
-//   getvalue(){
-//     console.log(this.name)
-//   }
-// }
-// let b1=new edc('abdulrehan')
-// b1.getvalue()
+class edc extends abc{
+  constructor( name:string){
+    super(name)
+  }
+  getvalue(){
+    console.log(this.name)
+  }
+}
+let b1=new edc('abdulrehan')
+b1.getvalue()
 
 
 // function sum(...arr:number[])
@@ -112,6 +112,7 @@ console.log(value)
 
 
 // assertions
+
 
 
 
